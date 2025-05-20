@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Arkaplan siyah */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+/* Başlık */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px #ff6a00;
+}
+
+/* Paragraf */
+p {
+  max-width: 600px; /* Belirli genişlikten sonra satır atlatır */
+  font-size: 1.2rem;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05); /* Hafif arkaplan */
+  box-shadow: 0 0 20px #00ffe1, 0 0 40px #00ffe1; /* Işık efekti */
+  backdrop-filter: blur(2px); /* Cam efekti gibi bulanıklık */
+}
